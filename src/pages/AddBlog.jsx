@@ -65,7 +65,10 @@ function AddBlog() {
         image,
         description,
         content,
-        author: user.name
+
+        author: user.name,
+        authorEmail: user.email,
+        authorRole: user.role,
       })
     );
 
